@@ -1,0 +1,75 @@
+html{
+  font-family: $primary-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+  font-family: $primary-font;
+  font-weight: bold;
+  color: #151515;
+  line-height: 40px;
+  //margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
+}
+
+p {
+  @include font-size(16);
+}
+
+a {
+  color: #00f;
+  text-decoration: underline;
+}
+
+blockquote {
+  margin: 10px 10px 10px 40px;
+  padding-left: 10px;
+  border-left: 2px solid #000;
+}
+
+dt,
+dd {
+  padding-bottom: 0;
+}
+
+ol {
+  padding-bottom: 1em;
+}
+li {
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-bottom: 1em;
+}
+
+address {
+  padding-bottom: 1em;
+  font-style: normal;
+}

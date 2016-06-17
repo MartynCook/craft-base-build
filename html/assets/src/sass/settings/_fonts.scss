@@ -1,0 +1,10 @@
+// Use this file to import font's other than iconfonts. You can use fontsquirrel to create a font-face file
+// lato-Bold / lato-Regular / Lato-Light / Lato-Black
+//$primary-font: 'Merriweather', 'Georgia', serif;
+
+// font weight 300 400 700 900
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'HouschkaAltPro-Medium', 'Helvetica', 'Arial', sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,900);
